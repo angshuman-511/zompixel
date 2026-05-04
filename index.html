@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>zompixel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Android App</p>
+      <div class="title-section">
+        <img id="appLogo" src="logo.png" alt="App logo" class="app-logo">
+        <h1 id="appTitle">ZomPixel</h1>
+      </div>
+      <p id="appDesc" class="lead">
+        Download and Start Using Our Application Zompixel[Beta] and give feedback to our team
+      </p>
+      <a id="downloadBtn" class="download-btn" href="apk/app-release.apk" download>Download APK</a>
+    </header>
+
+    <section class="panel">
+      <h2>Key Features</h2>
+      <ul id="featuresList" class="features">
+        <li>Please Use Login with Google all others functionality is under development.</li>
+        <li>Payment integration is under development[All Payment is on Dummy money].</li>
+        <li>Zumo AI Your personal Chatbot this is working[Not properly]You can use this.</li>
+        <li>Please Give Feedback Profile->Settings->Complaint.</li>
+      </ul>
+    </section>
+
+    <section class="panel screenshot-panel">
+      <h2>App Screenshots</h2>
+      <div class="gallery">
+        <img src="preview5.png" alt="Screenshot 6" class="preview">
+        <img src="preview6.png" alt="Screenshot 5" class="preview">
+        <img src="preview3.png" alt="Screenshot 4" class="preview">
+        <img src="preview2.png" alt="Screenshot 3" class="preview">
+        <img src="preview4.png" alt="Screenshot 2" class="preview">
+        <img src="preview1.png" alt="Screenshot 1" class="preview">
+      </div>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox hidden">
+    <div class="lightbox-content">
+      <img id="lightboxImg" src="" alt="Full view">
+      <button id="closeBtn" class="close-btn">&times;</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
